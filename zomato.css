@@ -1,0 +1,454 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header{
+    position: relative;
+}
+.image{
+
+    position: relative;
+    width: 1445px;
+    height: 420px;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+
+}
+.new{
+    font-weight: 550;
+    height: 50px;
+    
+}
+.container-new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.zomato-logo{
+    width: 300px;
+    height: 10px;
+} 
+   
+.new ul{
+     list-style: none;
+     display: flex;
+}
+.new ul li{
+    padding: 10px;
+}
+.list{
+    position: relative;
+    left: 893px;
+    top: 30px;
+}
+a{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.container-header-body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 150px;
+     flex-direction: column;
+     
+     
+}
+.header-body-content{
+    position: relative;
+    top: -50px;
+
+
+}
+.header-body-section-discover{
+    font-size: 35px;
+    margin: 25px 0;
+    color: rgb(232, 199, 199);
+    font-family: sans-serif;
+
+    
+}
+.search-bar{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    color: #000;
+
+}
+.location-map{
+    font-size: 22px;
+}
+.location input{
+   border: none;
+   font-size: 15px;
+   width: 200px;
+}
+.seach-item{
+    font-size: 18px;
+}
+.line{
+    padding: 7px;
+}
+#search{
+    width: 300px;
+    border: none;
+}
+.section-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-feature{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 40px;
+    width: 90%
+    margin: 100px;
+    margin-top: 50px;
+
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid #938b8b;
+  
+}
+.feature-image{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.feature-image img{
+    width: 100%;
+   background-position: 100px;
+}
+.features h3,
+.features p{
+    padding-left: 20px;
+}
+.features:hover{
+    transition: transform 0.7s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/***section 2 ***/
+.sectin-2-left h1{
+      font-size: 40px;
+      margin-bottom: 0px;
+      
+
+}
+.sectin-2-left p{
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.section-2-top{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.section-2-right{
+
+    color:rgb(181, 55, 55);
+}
+
+.sec-2{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-2 .img-1{
+    width: 22%;
+    height: 90%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.208)),url('https://b.zmtcdn.com/data/collections/2deab8e9f06ff125e80f5cc09f11e4d7_1674569132.jpg?output-format=webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.sec-2 .img-2{
+    width: 22%;
+    height: 90%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.208)),url('https://b.zmtcdn.com/data/collections/ba34f5659db282f10729ed6773f278d2_1688041325.png?output-format=webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.sec-2 .img-3{
+    width: 22%;
+    height: 90%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.208)),url('https://b.zmtcdn.com/data/collections/aaccef7199995c73258750f61c1961f0_1688041059.jpg?output-format=webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.sec-2 .img-4{
+    width: 22%;
+    height: 90%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.208)),url('https://b.zmtcdn.com/data/collections/8941ea1049484a5864e7a2aaf7e60f61_1688041977.png?output-format=webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.desc{
+    padding: 10px;
+}
+ .desc p{
+    font-weight: 700;
+    margin: 0px;
+ }
+ /*ssection-3*/
+.section-3{
+    color: rgb(53,48,48);
+    
+    margin-left: 100px;
+}
+.section-3-1{
+    font-size: 23.5px;
+    font-weight: 300;
+    color :rgb(53,48,48);
+    padding-left: 200px;
+    font-family: sans-serif;
+}
+.localities-list-1{
+    display: flex;
+    width: 100%;
+   padding-left: 165px;
+}
+.localities-list{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    border: 1px solid rgb(148, 143, 143);
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 55px;
+    width: 290px;
+    border-radius: 8px;
+    color: rgb(84, 81, 81);
+}
+.Places
+.localities-card{
+    height: 30%;
+    display: flex;
+    line-height: 5px;
+    align-items: center;
+    
+}
+
+
+.localities-list-12{
+    display: flex;
+    width: 100%;
+   padding-left: 165px;
+}
+.localities-list-2{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    border: 1px solid rgb(148, 143, 143);
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 55px;
+    width: 290px;
+    border-radius: 8px;
+    color: rgb(84, 81, 81);
+}
+.Places
+.localities-card-2{
+    height: 30%;
+    display: flex;
+    line-height: 5px;
+    align-items: center;
+    
+}
+
+.localities-list-123{
+    display: flex;
+    width: 100%;
+   padding-left: 165px;
+}
+.localities-list-3{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    border: 1px solid rgb(148, 143, 143);
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 55px;
+    width: 290px;
+    border-radius: 8px;
+    color: rgb(84, 81, 81);
+}
+.Places
+.localities-card-3{
+    height: 30%;
+    display: flex;
+    line-height: 5px;
+    align-items: center;
+    
+}
+.footer-1{
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    background-color: rgb(173 122 19 / 13%)
+    
+}
+.img-zomato{
+   
+    height: 77px;
+    width: 190px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    margin-left: 275px;
+    padding-top: 50px;
+    
+}
+.India{
+    width: 11px;
+    height: 11px;
+   
+}
+.country{
+    margin-left: 1150px;
+    display: flex;
+    align-items: center;
+   
+}
+.English{
+    margin-left:1230px ;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.globe{
+    width: px;
+    height: 15px;
+    object-fit: contain;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 89%;
+    height: 250px;
+    align-items: baseline;
+    padding-left: 190px;
+    position: relative;
+    padding-top: 20px;
+    color: rgb(89, 86, 86);
+   
+    
+}
+.footer-2-h31{
+    color: black;
+    font-weight: 150;
+    font-size: 15px;
+   font-family: sans-serif;
+   padding-left: 20px;
+}
+.footer-2-1{
+    width: 150px;
+    list-style: none;
+    
+}
+.footer-2-2{
+    width: 80px;
+    text-decoration: none;
+    
+}
+.footer-2-3{
+    width: 200px;
+    
+}
+.footer-2-4{
+    width: 160px;
+    
+}
+.footer-2-5{
+    width: 50px;
+
+   
+    
+}
+.social-media-links{
+display: flex;
+color: black;
+}
+.social-media-links i{
+    padding: 0px 2px;
+}
+.link1{
+    width: 100px;
+    height: 30px;
+    object-fit: contain;
+}
+.link2{
+    width: 100px;
+    height: 30px;
+    object-fit: contain;
+}
+.footer-2-1ul{
+     list-style: none;
+    align-items: normal;
+    padding-left: 20px;
+       
+}
+.footer-2-1ul a{
+   align-items: normal;
+    color:inherit;
+    text-decoration: none;
+  
+    
+}
